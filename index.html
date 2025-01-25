@@ -3,10 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./src/style.css">
+    <link href="https://www.nerdfonts.com/assets/css/combo.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KIT clone</title>
   </head>
-  <body class="flex justify-center my-auto  h-screen bg-red-300">
-    <h1 class="text-4xl uppercase font-bold text-green-800">Init</h1>
+  <body class="">
+      <header class="flex justify-between px-[120px] shadow-md h-[120px] ">
+          <div class="w-[130px] my-auto">
+            <img src="./imgs/header-logo.svg" alt="header-logo">
+         </div>   
+         <div class="grid grid-rows-2 mt-4 text-lg font-black">
+            <div class="flex gap-10"> <!-- upper row that disappeares on scroll -->
+                <p>Home</p>
+                <p>Plain Language</p>
+                <p>Legals</p>
+                <p>Privacy Policy</p>
+                <p>Accessibility</p>
+                <p>Sitemap</p>
+                <p>Intranet</p>
+                <p class="flex gap-[0.5rem] items-center"><img class="w-[20px] max-w-1 h-auto" src="imgs/inline-logo.svg" alt="inline-logo"><span>Kit</span></p>
+                <p class=""><span class="nf nf-fa-globe mr-1.5"></span>DE</p>
+                <p><span class="nf nf-oct-search"></span></p>
+            </div>
+            <div class="flex justify-self-end gap-10">
+                <p>KIT</p>
+                <p>Topics</p>
+                <p>Studies</p>
+                <p>Research</p>
+                <p>Innovation</p>
+                <p>Career</p>
+                <p><span class="nf nf-fa-house_chimney"></span></p>
+            </div>
+         </div>
+      </header>
   </body>
 </html>
