@@ -8,7 +8,7 @@
     <title>KIT clone</title>
   </head>
   <body class="">
-      <header class="flex justify-between px-[120px] shadow-md h-[120px] ">
+      <header class="flex justify-between px-[120px] shadow-md h-[120px] sticky z-10 bg-white top-0 w-full">
           <div class="w-[130px] my-auto">
             <img src="./imgs/header-logo.svg" alt="header-logo">
          </div>   
@@ -40,8 +40,6 @@
         
           <!-- News section -->
 
-          <!-- I have to fix the bottom border to be part of the anchor or right after and still maintain the height of the items -->
-
           <div>
               <h1 class="font-bold border-b-4 mb-0 border-green-700 border-solid inline-block pb-2">News</h1>
               <br>
@@ -57,7 +55,7 @@
                      <p class="text-xl hyphens-auto font-extralight  mt-1">
                      New fiber optic test track at KIT to drive research and development in quantum network technologies
                      </p>
-                     <a href="#" class="flex justify-between mr-2.5 hover:mr-0 no-underline text-green-700 font-bold text-lg mt-10 ">
+                     <a href="#" class="flex justify-between mr-2.5 duration-300 hover:mr-0 no-underline text-green-700 font-bold text-lg mt-10 ">
                          <span>Learn more</span>
                          <span class="nf nf-fa-arrow_right "></span>
                      </a>
@@ -70,29 +68,29 @@
                      <p class="text-xl hyphens-auto font-extralight  mt-1">
                      Challenges and solutions for the future mobility - The KIT Mobility Systems Center presents itself and its current research
                      </p>
-                     <a href="#" class="flex justify-between mr-2.5 hover:mr-0 no-underline text-green-700 font-bold text-lg">
+                     <a href="#" class="flex justify-between mr-2.5 duration-300 hover:mr-0 no-underline text-green-700 font-bold text-lg mt-10">
                          <span>Learn more</span>
                          <span class="nf nf-fa-arrow_right "></span>
                      </a>
                  </div>
                  <div class="border-b-[3px] border-green-700 border-solid">
                      <div>
-                         <img src="imgs/news-1.jpeg" alt="grid-item-1">
+                         <img src="imgs/news-3.jpeg" alt="grid-item-1">
                      </div>
                      <h4 class="text-2xl my-3 font-bold">Quantum Network for Secure Communication</h4>
                      <p class="text-xl hyphens-auto font-extralight  mt-1">New fiber optic test track at KIT to drive research and development in quantum network technologies</p>
-                     <a href="#" class="flex justify-between mr-2.5 hover:mr-0 no-underline text-green-700 font-bold text-lg">
+                     <a href="#" class="flex justify-between mr-2.5 hover:mr-0 duration-300 mt-10 no-underline text-green-700 font-bold text-lg">
                          <span>Learn more</span>
                          <span class="nf nf-fa-arrow_right "></span>
                      </a>
                  </div>
                  <div class="border-b-[3px] border-green-700 border-solid">
                      <div>
-                         <img src="imgs/news-1.jpeg" alt="grid-item-1">
+                         <img src="imgs/news-4.jpeg" alt="grid-item-1">
                      </div>
                      <h4 class="text-2xl my-3 font-bold">Quantum Network for Secure Communication</h4>
                      <p class="text-xl hyphens-auto font-extralight  mt-1">New fiber optic test track at KIT to drive research and development in quantum network technologies</p>
-                     <a href="#" class="flex justify-between mr-2.5 hover:mr-0 no-underline text-green-700 font-bold text-lg">
+                     <a href="#" class="flex justify-between mr-2.5 hover:mr-0 no-underline duration-300 mt-10 text-green-700 font-bold text-lg">
                          <span>Learn more</span>
                          <span class="nf nf-fa-arrow_right "></span>
                      </a>
@@ -103,9 +101,9 @@
           <div class="my-[80px]  grid grid-cols-4 gap-8">
               <div class="relative h-[400px]">
                       <img class="h-full w-full object-cover brightness-80" src="./imgs/news-5.jpeg" alt="bg">
-                  <div class="absolute top-0 left-0 text-white">
-                      <h1>For Respect, Dialog, and an Open Society</h1>
-                      <p>KIT is Committed to Diversity – Science thrives on exchange and tolerance.</p>
+                  <div class="absolute top-[40px] left-0 mx-12 text-white">
+                      <h1 class=" font-bold" style="text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);" >For Respect, Dialog, and an Open Society</h1>
+                      <p class="text-stroke-xl">KIT is Committed to Diversity – Science thrives on exchange and tolerance.</p>
                       <button>Learn more</button>
                       <p><span class="nf nf-fa-copyright"></span>Foto: Stadt Karlsruhe, Boris Burghardt / Collage: KIT</p>
                   </div>
@@ -159,7 +157,7 @@
               <p>To event calendar <span class="nf nf-fa-calendar"></span></p>
               <div class="grid grid-cols-2 gap-8">
                   <div>
-                      <img src="" alt="">
+                      <img src="./imgs/events.jpeg" alt="">
                       <h3>Wirtschaftsinformatik studieren am KIT</h3>
                       <p>January 28, 2025 16:30 - 17:30</p>
                       <p>Du interessierst dich für den Bachelorstudiengang „Wirtschaftsinformatik“ 
