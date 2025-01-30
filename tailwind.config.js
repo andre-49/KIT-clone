@@ -3,6 +3,10 @@
         content: ["./*.{html,js}"],
         theme: {
             extend: {
+                fontFamily: {
+                    sans: ['Poppins', 'sans-serif']
+                },
+
                 textStrokeWidth: {
                     sm: '1px',
                     md: '2px',
