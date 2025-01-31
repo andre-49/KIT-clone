@@ -636,6 +636,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-80 {
+  margin-top: 20rem;
+}
+
 .block {
   display: block;
 }
@@ -680,6 +684,10 @@ video {
   height: 500px;
 }
 
+.h-\[600px\] {
+  height: 600px;
+}
+
 .h-auto {
   height: auto;
 }
@@ -720,6 +728,10 @@ video {
   align-items: center;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -747,14 +759,6 @@ video {
 .hyphens-auto {
   -webkit-hyphens: auto;
           hyphens: auto;
-}
-
-.rounded-bl-full {
-  border-bottom-left-radius: 9999px;
-}
-
-.rounded-bl-\[5px\] {
-  border-bottom-left-radius: 5px;
 }
 
 .rounded-bl-\[20px\] {
@@ -802,6 +806,22 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[url\(\/imgs\/events\.jpeg\)\] {
+  background-image: url(/imgs/events.jpeg);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -829,6 +849,11 @@ video {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .text-lg {
@@ -900,5 +925,9 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+.group:hover .group-hover\:bg-\[120\%\] {
+  background-position: 120%;
 }
 
