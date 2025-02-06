@@ -4,7 +4,7 @@
         theme: {
             extend: {
                 fontFamily: {
-                    sans: ['Poppins', 'sans-serif']
+                    serrat: '"Montserrat", serif',
                 },
 
                 textStrokeWidth: {
