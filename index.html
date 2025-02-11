@@ -12,34 +12,79 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body class="font-serrat">
-      <header class="flex justify-between px-[20px] shadow-md h-[100px] sticky z-10 bg-white top-0 w-full">
-          <div class="w-[130px] my-auto">
-              <img src="./imgs/header-logo.svg" alt="header-logo">
-          </div>   
-          <div class="grid grid-rows-2 mt-4 text-md font-light font-black">
-              <div class="flex gap-4"> <!-- upper row that disappeares on scroll -->
-                  <p>Home</p>
-                  <p>Plain Language</p>
-                  <p>Legals</p>
-                  <p>Privacy Policy</p>
-                  <p>Accessibility</p>
-                  <p>Sitemap</p>
-                  <p>Intranet</p>
-                  <p class="flex gap-[0.5rem] items-center"><img class="w-[20px] max-w-1 h-auto" src="imgs/inline-logo.svg" alt="inline-logo"><span>Kit</span></p>
-                  <p class=""><span class="nf nf-fa-globe mr-1.5"></span>DE</p>
-                  <p><span class="nf nf-oct-search"></span></p>
+      <!-- <header class="md:hidden flex justify-between px-[20px] shadow-md h-[100px] sticky z-10 bg-white top-0 w-full"> -->
+      <!--     <div class="w-[130px] my-auto"> -->
+      <!--         <img src="./imgs/header-logo.svg" alt="header-logo"> -->
+      <!--     </div>    -->
+      <!--     <div class="grid grid-rows-2 mt-4 text-md font-light font-black"> -->
+      <!--         <div class="flex gap-4"> -->
+      <!--             <p>Home</p> -->
+      <!--             <p>Plain Language</p> -->
+      <!--             <p>Legals</p> -->
+      <!--             <p>Privacy Policy</p> -->
+      <!--             <p>Accessibility</p> -->
+      <!--             <p>Sitemap</p> -->
+      <!--             <p>Intranet</p> -->
+      <!--             <p class="flex gap-[0.5rem] items-center"><img class="w-[20px] max-w-1 h-auto" src="imgs/inline-logo.svg" alt="inline-logo"><span>Kit</span></p> -->
+      <!--             <p class=""><span class="nf nf-fa-globe mr-1.5"></span>DE</p> -->
+      <!--             <p><span class="nf nf-oct-search"></span></p> -->
+      <!--         </div> -->
+      <!--         <div class="flex justify-self-end gap-4 font-bold"> -->
+      <!--             <p>The KIT</p> -->
+      <!--             <p>Topics</p> -->
+      <!--             <p>Studies</p> -->
+      <!--             <p>Research</p> -->
+      <!--             <p>Innovation</p> -->
+      <!--             <p>Career</p> -->
+      <!--             <p><span class="nf nf-fa-house_chimney"></span></p> -->
+      <!--         </div> -->
+      <!--     </div> -->
+      <!-- </header> -->
+      <nav class="h-[100px] bg-white flex justify-between">
+          <div class="my-auto">
+              <img src="logo.svg" class="h-10" alt="">
+          </div>
+          <div class="hidden sm:grid grid-rows-2">
+              <ul class="md:flex justify-self-end font-bold " style="list-style: none; margin: 0; padding: 0;">
+                  <li>Home</li>
+                  <li>Plain Language</li>
+                  <li>Legals</li>
+                  <li>Privacy Policy</li>
+                  <li>Accessibility</li>
+                  <li>Sitemap</li>
+                  <li>Intranet</li>
+                  <li class="flex gap-[0.5rem] items-center">
+                      <img class="w-[20px] max-w-1 h-auto" src="imgs/inline-logo.svg" alt="inline-logo">
+                      <span>Kit</span>
+                  </li>
+                  <li><span class="nf nf-fa-globe mr-1.5"></span>DE</li>
+                  <li><span class="nf nf-oct-search"></span></li>
+              </ul>
+
+              <ul class="md:flex justify-self-end font-bold " style="list-style: none; margin: 0; padding: 0;">
+                  <li>The KIT</li>
+                  <li>Topics</li>
+                  <li>Studies</li>
+                  <li>Research</li>
+                  <li>Innovation</li>
+                  <li>Career</li>
+                  <li><span class="nf nf-fa-house_chimney"></span></li>
+              </ul>
+          </div>
+          <div class="sm:hidden my-auto flex">
+              <div class="py-1 px-2">
+                  <span class="nf nf-oct-search text-3xl "></span>
               </div>
-              <div class="flex justify-self-end gap-4 font-bold">
-                  <p>The KIT</p>
-                  <p>Topics</p>
-                  <p>Studies</p>
-                  <p>Research</p>
-                  <p>Innovation</p>
-                  <p>Career</p>
-                  <p><span class="nf nf-fa-house_chimney"></span></p>
+              <div class="py-1 px-2">
+                  <span class="nf nf-fa-globe text-3xl"></span>
+              </div>
+              <div class="py-1 px-2 bg-green-700 text-white">
+                  <span class="nf nf-md-menu text-3xl"></span>
               </div>
           </div>
-      </header>
+
+
+      </nav>
       <main>
 
           <!-- banner-section -->
