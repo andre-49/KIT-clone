@@ -43,11 +43,29 @@
       <main>
 
           <!-- banner-section -->
-          <div class="relative h-[560px] text-white">
-              <img class="h-full w-full object-cover brightness-80" src="./imgs/header1.jpeg" alt="bg">
-              <div class="absolute top-0">
-                  <h1>Studying a KIT</h1>
-                  <p>Research-based learning between university tradition and cutting-edge research</p>
+          <div id="default-carousel" class="relative h-[560px] text-white" data-carousel='slide'>
+              <div class="relative overflow-hidden rounded-lg" > <!-- carousel-wrapper -->
+                  <div class=" relative h-64 hidden duration-700 ease-in-out" data-carousel-item>
+                      <img src="./imgs/header1.jpeg"  alt="bg"> 
+                      <div class="absolute top-0">
+                          <h1>Studying a KIT</h1>
+                          <p>Research-based learning between university tradition and cutting-edge research</p>
+                      </div>
+                  </div>
+                  <div class="relative hidden h-64 duration-700 ease-in-out" data-carousel-item>
+                      <img src="./imgs/header-2.jpeg"  alt="bg"> 
+                      <div class="absolute top-0">
+                          <h1>Studying a KIT</h1>
+                          <p>Research-based learning between university tradition and cutting-edge research</p>
+                      </div>
+                  </div>
+                  <div class=" relative h-64 hidden duration-700 ease-in-out" data-carousel-item>
+                      <img src="./imgs/header-3.jpeg"  alt="bg"> <!-- -->
+                      <div class="absolute top-0">
+                          <h1>Studying a KIT</h1>
+                          <p>Research-based learning between university tradition and cutting-edge research</p>
+                      </div>
+                  </div>
               </div>
           </div>
           <div class="bg-black h-32 flex gap-5 justify-between px-[20px] text-white items-center text-xl uppercase ">
@@ -342,5 +360,6 @@
 
 
       </footer>
+      <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>
 </html>
